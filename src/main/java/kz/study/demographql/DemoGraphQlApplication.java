@@ -10,13 +10,10 @@ import org.springframework.stereotype.Controller;
 import reactor.core.publisher.ConnectableFlux;
 import reactor.core.publisher.Flux;
 
-import java.util.concurrent.atomic.AtomicLong;
-
 @SpringBootApplication
 @Controller
 public class DemoGraphQlApplication {
 
-    private static final AtomicLong generator = new AtomicLong(1);
     private final ConnectableFlux<Event> publisher;
     public static void main(String[] args) {
         SpringApplication.run(DemoGraphQlApplication.class, args);

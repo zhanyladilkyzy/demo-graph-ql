@@ -1,6 +1,6 @@
 package kz.study.demographql;
 
-import kz.study.demographql.model.BookController;
+import kz.study.demographql.controller.BookController;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.graphql.GraphQlTest;
